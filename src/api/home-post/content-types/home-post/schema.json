@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-post",
     "pluralName": "home-posts",
-    "displayName": "home-post"
+    "displayName": "home-post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,7 @@
     "zawartosc_posta": {
       "type": "customField",
       "options": {
-        "preset": "toolbar"
+        "preset": "custom"
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
@@ -25,14 +26,15 @@
       "type": "string"
     },
     "zdjecie_glowne": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "krotki_opis": {
       "type": "text"

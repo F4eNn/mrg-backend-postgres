@@ -368,6 +368,7 @@ export interface ApiHomePostHomePost extends Schema.CollectionType {
     singularName: 'home-post';
     pluralName: 'home-posts';
     displayName: 'home-post';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -377,7 +378,7 @@ export interface ApiHomePostHomePost extends Schema.CollectionType {
       Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
-          preset: 'toolbar';
+          preset: 'custom';
         }
       >;
     tytul: Attribute.String;
