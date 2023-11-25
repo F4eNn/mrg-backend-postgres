@@ -385,6 +385,7 @@ export interface ApiHomePostHomePost extends Schema.CollectionType {
     slug: Attribute.String;
     zdjecie_glowne: Attribute.Media;
     krotki_opis: Attribute.Text;
+    galeria: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

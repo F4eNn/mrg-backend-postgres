@@ -38,6 +38,17 @@
     },
     "krotki_opis": {
       "type": "text"
+    },
+    "galeria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
